@@ -1,0 +1,37 @@
+body{
+    background-color:darkgreen;
+}
+
+body h1{
+    color:white;
+    border-bottom: solid 3px white;
+    width:750px
+}
+.h1_img{
+    width:30px
+}
+.Hai{
+    padding:0px,15px,0px,0px;
+    width:25px;
+}
+
+.Hai hover{
+    opacity:0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+}
+
+.add_point{
+    color:white;
+}
+
+.Culc_List{
+    height:200px;
+    width:850px;
+    border:solid white 2px;
+}
+
+.add_point{
+    height:30px;
+    padding:10px 0px 0px 0px;
+}
