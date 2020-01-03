@@ -27,11 +27,55 @@ body h1{
 
 .Culc_List{
     height:200px;
-    width:850px;
+    width:800px;
     border:solid white 2px;
+    position: relative;
 }
 
 .add_point{
     height:30px;
     padding:10px 0px 0px 0px;
+}
+
+.one{
+    display:inline-block;
+
+}
+.two{
+    padding-left: 150px;
+}
+
+.three{
+    padding-left: 300px;
+}
+
+.four{
+    padding-left:450px
+}
+.atama{
+    padding-left:600px;
+}
+
+ul{
+    list-style:none;
+    color:white;
+    position: absolute;
+    padding-left:30px;
+    display: block;
+    top:25%;
+}
+li{
+    border:solid white;
+    margin:0px 10px 0px 0px;
+    padding-left:5px;
+    padding-right:5px;
+    left:10%;
+    float:left;
+    font-size:40px;
+}
+p{
+    font-size:15px
+}
+.yaku{
+    color:white;
 }

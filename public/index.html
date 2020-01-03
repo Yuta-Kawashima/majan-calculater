@@ -2,12 +2,46 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     </head>
     <body>
         <h1> 麻雀点数計算（Majan-Calculator）</h1>
         <div class = "Culc_List">
-            <div class = "mentsu"></div>
+            <div class = "one">
+                <ul class = "mentsu" id="one">
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                    </ul>
+            </div>
+            <div class = "two">
+                <ul class = "mentsu" id="one">
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                    </ul>
+            </div>
+            <div class = "three">
+                <ul class = "mentsu" id="one">
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                    </ul>
+            </div>
+            <div class = "four">
+                <ul class = "mentsu" id="one">
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                    </ul>
+            </div>
+            <div class = "atama">
+                <ul class = "mentsu" id="one">
+                        <li><img src=""></li>
+                        <li><img src=""></li>
+                    </ul>
+            </div>
             <div class = "mentsu"></div>
             <div class = "mentsu"></div>
             <div class = "atama"></div>
@@ -51,7 +85,44 @@
                 </select>
             </p>
         </div>
+        <div class = "yaku">
+            <form class="yaku">
+                <p>一翻</p>
+                <input type="checkbox" id="tanyao">タンヤオ
+                <input type="checkbox" id="pinhu">ピンフ
+                <input type="checkbox" id="ipeko">一盃口
+                <input type="checkbox" id="tyankan">槍槓
+                <input type="checkbox" id="rinsyan">嶺上開花
+                <input type="checkbox" id="haitei">海底摸月・河底撈魚
+                <input type="checkbox" id="hatsu">発
+                <input type="checkbox" id="haku">白
+                <input type="checkbox" id="tyun">中
+                <input type="checkbox" id="ton">東
+                <input type="checkbox" id="nan">南
+                <input type="checkbox" id="sha">西
+                <input type="checkbox" id="pe">北
+                <p>二翻</p>
+                <input type="checkbox" id="toitoi">対々和
+                <input type="checkbox" id="sananko">三暗刻
+                <input type="checkbox" id="dokou">三色同刻
+                <input type="checkbox" id="dozyun">三色同順
+                <input type="checkbox" id="konro">混老頭
+                <input type="checkbox" id="ittsu">一気通貫
+                <input type="checkbox" id="chanta">チャンタ
+                <input type="checkbox" id="syou">小三元
+                <input type="checkbox" id="sankan">三槓子
+                <p>三翻</p>
+                <input type="checkbox" id="honitu">混一色
+                <input type="checkbox" id="zyunchan">純チャン
+                <input type="checkbox" id="ryanpe">二盃口
+                <p>六翻</p>
+                <input type="checkbox" id="ryanpe">清一色
+            </form>
+        </div>
 
+
+
+    <!--
         <div class = "Hai_list">
             <ui class = Hai_List>
                 <button><img class = "Hai ton" src="./img/majan/ji1-ton.png"/></button>
@@ -93,5 +164,6 @@
                 <button><img class = "Hai sou9" src="./img/majan/sou9.png"/></button>
             </ui>
         </div>
+    -->
     </body>
 </html>
